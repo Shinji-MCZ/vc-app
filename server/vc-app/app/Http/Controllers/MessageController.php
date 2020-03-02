@@ -15,4 +15,12 @@ class MessageController extends Controller
   {
     return view('message.good', ['msg' => 'Good!']);
   }
+
+  public function name()
+  {
+    return view('introduction.name', ['name' => '吉岡新二です！！']);
+  }
 }
+
+
+

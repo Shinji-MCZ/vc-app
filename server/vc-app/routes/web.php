@@ -19,4 +19,5 @@ Route::get('/', function () {
 Route::get('message/hello', 'MessageController@hello');
 //goodと表示
 Route::get('message/good', 'MessageController@good');
-
+//自分の名前表示
+Route::get('introduction/name', 'IntroductionController@name');
